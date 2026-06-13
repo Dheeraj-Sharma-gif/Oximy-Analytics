@@ -16,8 +16,8 @@ export interface Selection {
 
 export type Point = { label: string; value: number; secondary?: number };
 export const ALLOWED_YEARS = [2025, 2026] as const;
-export const MAX_MONTH_INDEX_2026 = 4;
-export const MAX_SELECTABLE_DATE = new Date(2026, 4, 31);
+export const MAX_MONTH_INDEX_2026 = 5;
+export const MAX_SELECTABLE_DATE = new Date(2026, 5, 30);
 
 // ---------- Seeded RNG ----------
 const fnv1a = (s: string) => {
@@ -49,8 +49,8 @@ const pad = (n: number) => n.toString().padStart(2, "0");
 
 export const defaultSelection = (): Selection => ({
   kind: "monthly",
-  key: "monthly:2026-05",
-  label: "May 2026",
+  key: "monthly:2026-06",
+  label: "June 2026",
 });
 
 export const weeklySelection = (which: "this" | "last" | string, label?: string, hint?: string): Selection => ({
