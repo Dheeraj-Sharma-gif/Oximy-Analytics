@@ -217,7 +217,7 @@ const YT_TITLES = [
   "AI Marketing in 2026 — Full Breakdown",
   "We Rebuilt a Brand With AI in 24 Hours",
   "The Algorithm Doesn't Want You to See This",
-  "Inside Oximy's Content Engine",
+  "Inside Soma's Content Engine",
   "How a 60s Reel Outperformed a TV Ad",
 ];
 export const getYouTube = (sel: Selection = defaultSelection()): YouTubeData => {
@@ -261,7 +261,7 @@ const IG_TITLES = [
   "60s AI Ad That Hit 2.4M Views",
   "BTS: Building a Brand in a Day",
   "POV: You Discover the Algorithm",
-  "Studio Tour — Oximy HQ",
+  "Studio Tour — Soma HQ",
   "Three Hooks That Stopped Scrolls",
 ];
 export const getInstagram = (sel: Selection = defaultSelection()): InstagramData => {
@@ -285,7 +285,7 @@ export interface FacebookData {
   engagement: number;
 }
 const FB_TITLES = [
-  "Behind the Scenes — Oximy Studio",
+  "Behind the Scenes — Soma Studio",
   "Live Q&A: AI in Performance Marketing",
   "Community Spotlight: April Edition",
   "Our Most Viral Campaign Ever",

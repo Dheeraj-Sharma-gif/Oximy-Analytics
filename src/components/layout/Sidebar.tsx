@@ -21,7 +21,7 @@ export function Sidebar() {
           <Sparkles className="h-5 w-5 text-primary-foreground" />
         </div>
         <div className="leading-tight">
-          <div className="font-display text-lg font-bold text-gradient">Oximy</div>
+          <div className="font-display text-lg font-bold text-gradient">Soma</div>
           <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Analytics</div>
         </div>
       </Link>

@@ -47,7 +47,7 @@
 :root {
   --radius: 0.875rem;
 
-  /* Oximy futuristic dark */
+  /* Soma futuristic dark */
   --background: oklch(0.16 0.03 264);
   --foreground: oklch(0.97 0.01 250);
 

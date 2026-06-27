@@ -5,8 +5,8 @@ import { getInstagram } from "@/lib/mockData";
 
 export const Route = createFileRoute("/instagram")({
   head: () => ({ meta: [
-    { title: "Instagram Analytics — Oximy" },
-    { name: "description", content: "Reels, posts, reach and engagement for Oximy on Instagram." },
+    { title: "Instagram Analytics — Soma" },
+    { name: "description", content: "Reels, posts, reach and engagement for Soma on Instagram." },
   ]}),
   component: InstagramPage,
 });

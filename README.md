@@ -1,2 +1,2 @@
-# Oximy Dashboard
+# Soma Dashboard
 

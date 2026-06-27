@@ -5,8 +5,8 @@ import { getFacebook } from "@/lib/mockData";
 
 export const Route = createFileRoute("/facebook")({
   head: () => ({ meta: [
-    { title: "Facebook Analytics — Oximy" },
-    { name: "description", content: "Reach, posts, reels and engagement for Oximy on Facebook." },
+    { title: "Facebook Analytics — Soma" },
+    { name: "description", content: "Reach, posts, reels and engagement for Soma on Facebook." },
   ]}),
   component: FacebookPage,
 });

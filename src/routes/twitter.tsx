@@ -5,8 +5,8 @@ import { getTwitter } from "@/lib/mockData";
 
 export const Route = createFileRoute("/twitter")({
   head: () => ({ meta: [
-    { title: "X (Twitter) Analytics — Oximy" },
-    { name: "description", content: "Posts, reach, views and engagement for Oximy on X." },
+    { title: "X (Twitter) Analytics — Soma" },
+    { name: "description", content: "Posts, reach, views and engagement for Soma on X." },
   ]}),
   component: TwitterPage,
 });
