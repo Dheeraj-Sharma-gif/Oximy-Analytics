@@ -21,8 +21,8 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
       meta: [
-      { title: "Overview — Soma Analytics" },
-      { name: "description", content: "Unified analytics across all of Soma's social media channels." },
+      { title: "Overview — Proppr Analytics" },
+      { name: "description", content: "Unified analytics across all of Proppr's social media channels." },
     ],
   }),
   component: Overview,
@@ -69,7 +69,7 @@ function Overview() {
               initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.05 }}
               className="mt-4 max-w-2xl font-display text-4xl font-bold leading-[1.05] tracking-tight md:text-5xl"
             >
-              The pulse of <span className="text-gradient">Soma</span> across every channel.
+              The pulse of <span className="text-gradient">Proppr</span> across every channel.
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.1 }}
