@@ -5,8 +5,8 @@ import { getLinkedIn } from "@/lib/mockData";
 
 export const Route = createFileRoute("/linkedin")({
   head: () => ({ meta: [
-    { title: "LinkedIn Analytics — Proppr" },
-    { name: "description", content: "Followers, reach, impressions and engagement for Proppr on LinkedIn." },
+    { title: "LinkedIn Analytics — Soma" },
+    { name: "description", content: "Followers, reach, impressions and engagement for Soma on LinkedIn." },
   ]}),
   component: LinkedInPage,
 });

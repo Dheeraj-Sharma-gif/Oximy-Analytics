@@ -5,8 +5,8 @@ import { getYouTube } from "@/lib/mockData";
 
 export const Route = createFileRoute("/youtube")({
   head: () => ({ meta: [
-    { title: "YouTube Analytics — Proppr" },
-    { name: "description", content: "Subscribers, views, watch time and engagement for Proppr's YouTube channel." },
+    { title: "YouTube Analytics — Soma" },
+    { name: "description", content: "Subscribers, views, watch time and engagement for Soma's YouTube channel." },
   ]}),
   component: YouTubePage,
 });
